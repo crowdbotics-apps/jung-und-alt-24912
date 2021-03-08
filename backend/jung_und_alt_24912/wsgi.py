@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'jung_und_alt_24912.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "jung_und_alt_24912.settings")
 
 application = get_wsgi_application()
